@@ -2,12 +2,13 @@
     color: #97c93e !important;
 }
 
-#footer {
-    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+.btn-platzi {
+    background-color: #97c93e;
+    color: white;
 }
 
-#footer a {
-    color: white;
+.btn-platzi:hover {
+    background-color: #82ad36;
 }
 
 #main .carousel-inner img {
@@ -38,4 +39,16 @@
 
 #header img {
     width: 80px;
+}
+
+#speakers-text p {
+    text-align: justify;
+}
+
+#footer {
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+}
+
+#footer a {
+    color: white;
 }
